@@ -1,7 +1,5 @@
 ---
 title: "My Website"
-output: bookdown::gitbook
-site: bookdown::bookdown_site
 ---
 
 Hello, Website!
