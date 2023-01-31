@@ -1,5 +1,7 @@
 ---
 title: "About This Website"
+output: bookdown::gitbook
+site: bookdown::bookdown_site
 ---
 
 More about this website.
