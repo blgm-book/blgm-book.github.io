@@ -1,5 +1,5 @@
 name: "my-website"
-output_dir: .
+output_dir: "."
 navbar:
   title: "My Website"
   type: inverse
