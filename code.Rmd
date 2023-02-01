@@ -1,0 +1,30 @@
+---
+title: "Supplementary Code"
+---
+<br>
+```{r out.width='30%', out.extra='style="float:right; padding:10px"',echo=F}
+knitr::include_graphics("book_cover.jpg")
+```
+<!-- Here we provide links to the various github repositories where the code corresponding to each chapter can be found. -->
+ 
+
+### **Chapter 3** - *Bayesian discharge rating curves based on the generalized power law*
+
+- [<font size="4">bdrc - GitHub repository (R)</font> ](https://github.com/sor16/bdrc)
+- [<font size="4">bdrc - Shiny application</font> ](https://bdrc.shinyapps.io/bdrc)
+- [<font size="4">bdrc - R package webpage</font> ](https://sor16.github.io/bdrc)
+
+<br>
+
+### **Chapter 4** - *Bayesian modeling in engineering seismology: Ground-motion models*
+
+- [<font size="4">4.1. Code and synthetic data - GitHub repository (Matlab)</font> ](https://github.com/hjordislb/BHM2020)
+- [<font size="4">4.2. Code and synthetic data - GitHub repository (Matlab)</font> ](https://github.com/tsonne/bayes-empirical-gmm)
+- [<font size="4">4.3. Code and synthetic data - GitHub repository (MISSING)</font> ](https://github.com/tsonne/bayes-empirical-gmm)
+
+<br>
+
+### **Chapter 5** - *Bayesian modeling in engineering seismology: Spatial earthquake magnitude model*
+
+- [<font size="4">Code and data - GitHub repository (MISSING)</font> ](https://github.com/hjordislb/BHM2020)
+
