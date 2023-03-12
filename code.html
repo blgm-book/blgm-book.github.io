@@ -13,7 +13,7 @@
 
 <title>Supplementary Code</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -143,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -176,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -185,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -293,6 +290,7 @@ $(document).ready(function () {
 <p><br>
 <img src="book_cover.jpg" width="30%" style="float:right; padding:10px" />
 <!-- Here we provide links to the various github repositories where the code corresponding to each chapter can be found. --></p>
+<hr />
 <div id="ch.-1---bayesian-latent-gaussian-models"
 class="section level4">
 <h4><strong>Ch. 1</strong> - <em>Bayesian latent Gaussian
@@ -300,8 +298,11 @@ models</em></h4>
 <p>Birgir Hrafnkelsson and Haakon Bakka</p>
 <ul>
 <li><a
-href="https://sites.google.com/view/rates-antarctica/home"><font size="3">Section
-4 - Code (DUMMY)</font></a></li>
+href="https://github.com/hrafnkelsson/chapter1blgm"><font size="3">Section
+4 - Code (Matlab)</font></a></li>
+<li><a
+href="https://github.com/haakonbakkagit/TEMP"><font size="3">Section 5 -
+Code (R)(TEMP)</font></a></li>
 </ul>
 <hr />
 </div>
@@ -311,12 +312,11 @@ class="section level4">
 glaciology</em></h4>
 <p>Giri Gopalan, Andrew Zammit-Mangion, and Felicity McCormack</p>
 <ul>
+<li><a href="https://github.com/ggopalan/SMB"><font size="3">Section 3 -
+Code - GitHub repository (R)</font></a></li>
 <li><a
 href="https://sites.google.com/view/rates-antarctica/home"><font size="3">Section
-3 - Code (R)</font></a></li>
-<li><a
-href="https://sites.google.com/view/rates-antarctica/home"><font size="3">Section
-4 - Code (DUMMY)</font></a></li>
+4 - Code - Google site (R)</font></a></li>
 </ul>
 <hr />
 </div>
@@ -358,14 +358,15 @@ href="https://github.com/tsonne/gmm-ranking-dic"><font size="3">Section
 <hr />
 </div>
 <div
-id="ch.-5---bayesian-modeling-in-engineering-seismology-spatial-earthquake-magnitude-model"
+id="ch.-5---bayesian-modelling-in-engineering-seismology-spatial-earthquake-magnitude-model"
 class="section level4">
-<h4><strong>Ch. 5</strong> - <em>Bayesian modeling in engineering
+<h4><strong>Ch. 5</strong> - <em>Bayesian modelling in engineering
 seismology: Spatial earthquake magnitude model</em></h4>
 <p>Atefe Darzi, Birgir Hrafnkelsson, and Benedikt Halldorsson</p>
 <ul>
-<li><a href="https://github.com/hjordislb/BHM2020"><font size="3">Code
-and data - GitHub repository (MISSING)</font></a></li>
+<li><a
+href="https://github.com/hrafnkelsson/chapter5blgm"><font size="3">Code
+and data - GitHub repository (Matlab)</font></a></li>
 </ul>
 <hr />
 </div>
@@ -376,8 +377,8 @@ class="section level4">
 by Bayesian hierarchical modelling</em></h4>
 <p>Joshua Lovegrove and Stefan Siegert</p>
 <ul>
-<li><a href="https://github.com/hjordislb/BHM2020"><font size="3">Code
-and data - GitHub repository (DUMMY)</font></a></li>
+<li><a href="https://github.com/sieste/TEMP"><font size="3">Code and
+data - GitHub repository (R) (TEMP)</font></a></li>
 </ul>
 <hr />
 </div>
@@ -393,7 +394,7 @@ href="https://gpm.nasa.gov/data-access/downloads/trmm"><font size="3">
 Data </font></a></li>
 <li><a
 href="https://github.com/arnabstatswithR/max_and_smooth"><font size="3">
-Code (R) </font></a></li>
+Code - GitHub repository (R) </font></a></li>
 </ul>
 </div>
 

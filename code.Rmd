@@ -7,11 +7,14 @@ knitr::include_graphics("book_cover.jpg")
 ```
 <!-- Here we provide links to the various github repositories where the code corresponding to each chapter can be found. -->
 
+-------------------------
+
 #### **Ch. 1** - *Bayesian latent Gaussian models*
 
 Birgir Hrafnkelsson and Haakon Bakka
 
-- [<font size="3">Section 4 - Code (DUMMY)</font> ](https://sites.google.com/view/rates-antarctica/home)
+- [<font size="3">Section 4 - Code (Matlab)</font> ](https://github.com/hrafnkelsson/chapter1blgm)
+- [<font size="3">Section 5 - Code (R)(TEMP)</font> ](https://github.com/haakonbakkagit/TEMP)
  
 ------------------------- 
  
@@ -19,8 +22,8 @@ Birgir Hrafnkelsson and Haakon Bakka
 
 Giri Gopalan, Andrew Zammit-Mangion, and Felicity McCormack
 
-- [<font size="3">Section 3 - Code (R)</font> ](https://sites.google.com/view/rates-antarctica/home)
-- [<font size="3">Section 4 - Code (DUMMY)</font> ](https://sites.google.com/view/rates-antarctica/home)
+- [<font size="3">Section 3 - Code - GitHub repository (R)</font> ](https://github.com/ggopalan/SMB)
+- [<font size="3">Section 4 - Code - Google site (R)</font> ](https://sites.google.com/view/rates-antarctica/home)
 
 -------------------------
 
@@ -44,11 +47,11 @@ Sahar Rahpeyma, Milad Kowsari, Tim Sonnemann, Benedikt Halldorsson, and Birgir H
 
 -------------------------
 
-#### **Ch. 5** - *Bayesian modeling in engineering seismology: Spatial earthquake magnitude model*
+#### **Ch. 5** - *Bayesian modelling in engineering seismology: Spatial earthquake magnitude model*
 
 Atefe Darzi, Birgir Hrafnkelsson, and Benedikt Halldorsson
 
-- [<font size="3">Code and data - GitHub repository (MISSING)</font> ](https://github.com/hjordislb/BHM2020)
+- [<font size="3">Code and data - GitHub repository (Matlab)</font> ](https://github.com/hrafnkelsson/chapter5blgm)
 
 -------------------------
 
@@ -56,7 +59,7 @@ Atefe Darzi, Birgir Hrafnkelsson, and Benedikt Halldorsson
 
 Joshua Lovegrove and Stefan Siegert
 
-- [<font size="3">Code and data - GitHub repository (DUMMY)</font> ](https://github.com/hjordislb/BHM2020)
+- [<font size="3">Code and data - GitHub repository (R) (TEMP)</font> ](https://github.com/sieste/TEMP)
 
 -------------------------
 
@@ -65,5 +68,4 @@ Joshua Lovegrove and Stefan Siegert
 Arnab Hazra, Raphaël Huser, and Árni V. Jóhannesson
 
 - [<font size="3"> Data </font> ](https://gpm.nasa.gov/data-access/downloads/trmm)
-- [<font size="3"> Code (R) </font> ](https://github.com/arnabstatswithR/max_and_smooth)
-
+- [<font size="3"> Code - GitHub repository (R) </font> ](https://github.com/arnabstatswithR/max_and_smooth)

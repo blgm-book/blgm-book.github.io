@@ -11,9 +11,9 @@
 
 
 
-<title>Statistical Methods for  Bayesian latent Gaussian models</title>
+<title>Bayesian latent Gaussian models</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -143,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -176,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -185,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -285,8 +282,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Statistical Methods for <br>Bayesian latent
-Gaussian models</h1>
+<h1 class="title toc-ignore">Bayesian latent Gaussian models</h1>
 <h3 class="subtitle">with applications in Geophysics and Environmental
 Sciences</h3>
 
@@ -295,19 +291,12 @@ Sciences</h3>
 
 <p><br>
 <img src="book_cover.jpg" width="30%" style="float:right; padding:10px" />
-This book provides an introduction to statistical methods. It’s aimed
-for upper level undergraduate students, masters students and
-Ph.D. students in the non-mathematical sciences. The book also contains
-a number of R labs with detailed explanations on how to implement the
-various methods in real life settings, and should be a valuable resource
-for a practicing data scientist.</p>
-<p>The authors wrote a popular reference book for statistics and
-research. The current book covers many of the same topics, but at a
-level accessible to a much broader audience. This book is targeted at
-statisticians and non-statisticians alike who wish to use cutting-edge
-statistical learning techniques to analyze their data. The text assumes
-only a previous course in linear regression and no knowledge of matrix
-algebra.</p>
+This book is on Bayesian latent Gaussian models and how to apply them to
+data in geophysics and environmental sciences. It is written for
+graduate students, researchers, and specialists, in geophysics,
+environmental sciences, statistics, and other related fields. The
+material of the book requires knowledge of calculus, linear algebra,
+probability and statistics.</p>
 
 
 
