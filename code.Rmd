@@ -7,20 +7,24 @@ knitr::include_graphics("book_cover.jpg")
 ```
 <!-- Here we provide links to the various github repositories where the code corresponding to each chapter can be found. -->
 
-#### **Chapter 1** - *Bayesian latent Gaussian models*
+#### **Ch. 1** - *Bayesian latent Gaussian models*
 
 Birgir Hrafnkelsson and Haakon Bakka
 
 - [<font size="3">Section 4 - Code (DUMMY)</font> ](https://sites.google.com/view/rates-antarctica/home)
  
-#### **Chapter 2** - *A review of Bayesian modelling in glaciology*
+------------------------- 
+ 
+#### **Ch. 2** - *A review of Bayesian modelling in glaciology*
 
 Giri Gopalan, Andrew Zammit-Mangion, and Felicity McCormack
 
 - [<font size="3">Section 3 - Code (R)</font> ](https://sites.google.com/view/rates-antarctica/home)
 - [<font size="3">Section 4 - Code (DUMMY)</font> ](https://sites.google.com/view/rates-antarctica/home)
 
-#### **Chapter 3** - *Bayesian discharge rating curves based on the generalized power law*
+-------------------------
+
+#### **Ch. 3** - *Bayesian discharge rating curves based on the generalized power law*
 
 Birgir Hrafnkelsson, Rafael Daníel Vias, Sölvi Rögnvaldsson, Axel Örn Jansson, and Sigurdur M. Gardarsson
 
@@ -28,7 +32,9 @@ Birgir Hrafnkelsson, Rafael Daníel Vias, Sölvi Rögnvaldsson, Axel Örn Jansso
 - [<font size="3">bdrc - Shiny application</font> ](https://bdrc.shinyapps.io/bdrc)
 - [<font size="3">bdrc - R package webpage</font> ](https://sor16.github.io/bdrc)
 
-#### **Chapter 4** - *Bayesian modeling in engineering seismology: Ground-motion models*
+-------------------------
+
+#### **Ch. 4** - *Bayesian modeling in engineering seismology: Ground-motion models*
 
 Sahar Rahpeyma, Milad Kowsari, Tim Sonnemann, Benedikt Halldorsson, and Birgir Hrafnkelsson
 
@@ -36,19 +42,25 @@ Sahar Rahpeyma, Milad Kowsari, Tim Sonnemann, Benedikt Halldorsson, and Birgir H
 - [<font size="3">Section 4.2 Code and synthetic data - GitHub repository (Matlab)</font> ](https://github.com/tsonne/bayes-empirical-gmm)
 - [<font size="3">Section 4.3 Code and synthetic data - GitHub repository (Matlab)</font> ](https://github.com/tsonne/gmm-ranking-dic)
 
-#### **Chapter 5** - *Bayesian modeling in engineering seismology: Spatial earthquake magnitude model*
+-------------------------
+
+#### **Ch. 5** - *Bayesian modeling in engineering seismology: Spatial earthquake magnitude model*
 
 Atefe Darzi, Birgir Hrafnkelsson, and Benedikt Halldorsson
 
 - [<font size="3">Code and data - GitHub repository (MISSING)</font> ](https://github.com/hjordislb/BHM2020)
 
-#### **Chapter 6** - *Improving numerical weather forecasts by Bayesian hierarchical modelling*
+-------------------------
+
+#### **Ch. 6** - *Improving numerical weather forecasts by Bayesian hierarchical modelling*
 
 Joshua Lovegrove and Stefan Siegert
 
 - [<font size="3">Code and data - GitHub repository (DUMMY)</font> ](https://github.com/hjordislb/BHM2020)
 
-#### **Chapter 7** - *Bayesian latent Gaussian models for high-dimensional spatial extremes*
+-------------------------
+
+#### **Ch. 7** - *Bayesian latent Gaussian models for high-dimensional spatial extremes*
 
 Arnab Hazra, Raphaël Huser, and Árni V. Jóhannesson
 
