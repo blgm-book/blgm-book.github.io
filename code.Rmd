@@ -7,6 +7,8 @@ knitr::include_graphics("book_cover.jpg")
 ```
 <!-- Here we provide links to the various github repositories where the code corresponding to each chapter can be found. -->
 
+-------------------------
+
 #### **Ch. 1** - *Bayesian latent Gaussian models*
 
 Birgir Hrafnkelsson and Haakon Bakka
