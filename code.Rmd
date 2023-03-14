@@ -14,7 +14,7 @@ knitr::include_graphics("book_cover.jpg")
 Birgir Hrafnkelsson and Haakon Bakka
 
 - [<font size="3">Section 4 - Code (Matlab)</font> ](https://github.com/hrafnkelsson/chapter1blgm)
-- [<font size="3">Section 5 - Code (R)(TEMP)</font> ](https://github.com/haakonbakkagit/TEMP)
+- [<font size="3">Section 5 - Code (R)</font> ](https://github.com/haakonbakkagit/blgm-book-bakka-code)
  
 ------------------------- 
  
