@@ -1,6 +1,6 @@
 ---
-title: "Bayesian latent Gaussian models"
-subtitle: with applications in Geophysics and Environmental Sciences
+title: "Bayesian Latent Gaussian Models"
+subtitle: with Applications in Geophysics and Environmental Sciences
 ---
 <br>
 ```{r out.width='30%', out.extra='style="float:right; padding:10px"',echo=F}
