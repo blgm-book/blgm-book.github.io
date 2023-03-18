@@ -59,7 +59,7 @@ Atefe Darzi, Birgir Hrafnkelsson, and Benedikt Halldorsson
 
 Joshua Lovegrove and Stefan Siegert
 
-- [<font size="3">Code and data - GitHub repository (R) (TEMP)</font> ](https://github.com/sieste/TEMP)
+- [<font size="3">Code and data - GitHub repository (R) </font> ](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2Fsieste%2Flgmbook-stefan&data=05%7C01%7Cbirgirhr%40hi.is%7C50717dfac75345742c9c08db2561ebab%7C09fa5f0e211846568529677ed8fdbe78%7C0%7C0%7C638144877341631305%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C2000%7C%7C%7C&sdata=671KX8g9uSJ3RFQibXd6K2M6xamDHC5kSbjN7lLVE%2B4%3D&reserved=0)
 
 -------------------------
 
